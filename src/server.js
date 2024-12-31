@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 viewEngine(app);
 initWebRoutes(app);
 
-let port = process.env.PORT || 6969; 
+let port = process.env.PORT || 6969;
 //Port === undefined => port = 6969
 
 app.listen(port, () => {

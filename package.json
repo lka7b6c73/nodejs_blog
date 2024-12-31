@@ -1,33 +1,32 @@
 {
-  "name": "nodejs",
+  "name": "nodejs_blog",
   "version": "1.0.0",
-  "description": "Backend nodejs LK",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
   },
-  "keywords": [
-    "Fullstack",
-    "nodejs",
-    "express",
-    "LK"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lka7b6c73/nodejs_blog.git"
+  },
   "author": "LK",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lka7b6c73/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/lka7b6c73/nodejs_blog#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.37.5"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
-    "nodemon": "^2.0.7",
-    "sequelize-cli": "^6.2.0"
+    "nodemon": "^2.0.7"
   }
 }
